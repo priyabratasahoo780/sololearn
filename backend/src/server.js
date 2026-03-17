@@ -1,0 +1,26 @@
+const dotenv = require('dotenv');
+// Load env vars
+dotenv.config();
+
+const connectDB = require('./config/db');
+const app = require('./app');
+
+// Connect to database
+connectDB();
+
+console.log('JWT_SECRET Loaded:', !!process.env.JWT_SECRET);
+console.log('JWT_EXPIRES_IN:', process.env.JWT_EXPIRES_IN);
+if (!process.env.JWT_SECRET) console.error('FATAL: JWT_SECRET is missing!');
+
+const PORT = process.env.PORT || 4000;
+
+const server = app.listen(PORT, () => {
+  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+});
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (err, promise) => {
+  console.log(`Error: ${err.message}`);
+  // Close server & exit process
+  server.close(() => process.exit(1));
+});

@@ -1,0 +1,533 @@
+[
+  {
+    "id": "q_html_1",
+    "category": "HTML",
+    "title": "HTML Basics",
+    "description": "Fundamental concepts of HTML structure and elements.",
+    "difficulty": "Beginner",
+    "createdBy": "System",
+    "pointsPerQuestion": 10,
+    "questions": [
+      {
+        "question": "What does HTML stand for?",
+        "options": ["Hyper Text Markup Language", "High Text Markup Link", "Hyper Tool Multi Language", "None of these"],
+        "answerIndex": 0,
+        "explanation": "HTML stands for Hyper Text Markup Language. It is the standard markup language for documents designed to be displayed in a web browser."
+      },
+      {
+        "question": "Which tag is used to create a hyperlink?",
+        "options": ["<link>", "<a>", "<href>", "<url>"],
+        "answerIndex": 1,
+        "explanation": "The <a> tag (anchor tag) is used to define a hyperlink."
+      },
+      {
+        "question": "What is the correct HTML element for the largest heading?",
+        "options": ["<h6>", "<head>", "<h1>", "<header>"],
+        "answerIndex": 2,
+        "explanation": "<h1> defines the most important heading. <h6> defines the least important heading."
+      },
+      {
+        "question": "Which character is used to indicate an end tag?",
+        "options": ["*", "/", "<", "^"],
+        "answerIndex": 1,
+        "explanation": "End tags are distinguished by a slash (/) before the tag name."
+      },
+      {
+        "question": "Inline elements are normally displayed without starting a new line.",
+        "options": ["True", "False"],
+        "answerIndex": 0,
+        "explanation": "Inline elements like <span> or <a> do not start on a new line and only take up as much width as necessary."
+      },
+      {
+        "question": "How can you open a link in a new tab/browser window?",
+        "options": ["<a href='url' target='new'>", "<a href='url' new>", "<a href='url' target='_blank'>", "<a href='url' target='window'>"],
+        "answerIndex": 2,
+        "explanation": "target='_blank' specifies that the linked document will open in a new tab or window."
+      },
+      {
+        "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+        "options": ["alt", "title", "src", "longdesc"],
+        "answerIndex": 0,
+        "explanation": "The alt attribute provides alternative text for an image if the user for some reason cannot view it."
+      },
+      {
+        "question": "Which doctype is correct for HTML5?",
+        "options": ["<!DOCTYPE html>", "<!DOCTYPE HTML5>", "<!DOCTYPE html PUBLIC ...>", "<!DOCTYPE root>"],
+        "answerIndex": 0,
+        "explanation": "HTML5 doctype is simple: <!DOCTYPE html>."
+      }
+    ]
+  },
+  {
+    "id": "q_css_1",
+    "category": "CSS",
+    "title": "CSS Styling",
+    "description": "Learn how to style your web pages with CSS.",
+    "difficulty": "Intermediate",
+    "createdBy": "System",
+    "pointsPerQuestion": 15,
+    "questions": [
+      {
+        "question": "What does CSS stand for?",
+        "options": ["Colorful Style Sheets", "Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets"],
+        "answerIndex": 2,
+        "explanation": "CSS stands for Cascading Style Sheets."
+      },
+      {
+        "question": "Which property is used to change the background color?",
+        "options": ["color", "bgcolor", "background-color", "bg-color"],
+        "answerIndex": 2,
+        "explanation": "background-color sets the background color of an element."
+      },
+      {
+        "question": "How do you select an element with id 'demo'?",
+        "options": [".demo", "#demo", "demo", "*demo"],
+        "answerIndex": 1,
+        "explanation": "The id selector uses the hash (#) character."
+      },
+      {
+        "question": "Which CSS property is used to control the text size?",
+        "options": ["text-style", "text-size", "font-size", "font-style"],
+        "answerIndex": 2,
+        "explanation": "font-size sets the size of the font."
+      },
+      {
+        "question": "How do you make each word in a text start with a capital letter?",
+        "options": ["text-style: capitalize", "transform: capitalize", "text-transform: capitalize", "font-transform: capitalize"],
+        "answerIndex": 2,
+        "explanation": "text-transform: capitalize capitalizes the first character of each word."
+      },
+      {
+        "question": "Which property is used to change the left margin of an element?",
+        "options": ["padding-left", "margin-left", "indent", "text-indent"],
+        "answerIndex": 1,
+        "explanation": "margin-left sets the left margin of an element."
+      },
+      {
+        "question": "What is the default value of the position property?",
+        "options": ["relative", "fixed", "absolute", "static"],
+        "answerIndex": 3,
+        "explanation": "static is the default position value. Elements render in order, as they appear in the document flow."
+      },
+      {
+        "question": "Which keyword is used for 'flexbox' layout?",
+        "options": ["display: grid", "display: block", "display: flex", "display: box"],
+        "answerIndex": 2,
+        "explanation": "display: flex initiates a flex container."
+      }
+    ]
+  },
+  {
+    "id": "q_js_1",
+    "category": "JavaScript",
+    "title": "JavaScript Core",
+    "description": "Master the logic of the web.",
+    "difficulty": "Intermediate",
+    "createdBy": "System",
+    "pointsPerQuestion": 20,
+    "questions": [
+      {
+        "question": "Inside which HTML element do we put the JavaScript?",
+        "options": ["<javascript>", "<js>", "<script>", "<scripting>"],
+        "answerIndex": 2,
+        "explanation": "The <script> tag is used to define client-side JavaScript."
+      },
+      {
+        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "options": ["<script href='xxx.js'>", "<script name='xxx.js'>", "<script src='xxx.js'>", "<script file='xxx.js'>"],
+        "answerIndex": 2,
+        "explanation": "The src attribute specifies the URL of an external script file."
+      },
+      {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "options": ["msg('Hello World');", "alert('Hello World');", "msgBox('Hello World');", "alertBox('Hello World');"],
+        "answerIndex": 1,
+        "explanation": "alert() displays a dialog box with an optional message."
+      },
+      {
+        "question": "How do you create a function in JavaScript?",
+        "options": ["function = myFunction()", "function myFunction()", "function:myFunction()", "create myFunction()"],
+        "answerIndex": 1,
+        "explanation": "function name() {} is the standard way to declare a function."
+      },
+      {
+        "question": "How does a FOR loop start?",
+        "options": ["for (i = 0; i <= 5)", "for (i <= 5; i++)", "for i = 1 to 5", "for (i = 0; i <= 5; i++)"],
+        "answerIndex": 3,
+        "explanation": "Standard for loop syntax: for (initialization; condition; increment)."
+      },
+      {
+        "question": "What is the correct way to write a JavaScript array?",
+        "options": ["var colors = 1 = ('red'), 2 = ('green')", "var colors = (1:'red', 2:'green')", "var colors = ['red', 'green', 'blue']", "var colors = 'red', 'green', 'blue'"],
+        "answerIndex": 2,
+        "explanation": "Array literals use square brackets []."
+      },
+      {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "options": ["onmouseover", "onchange", "onclick", "onmouseclick"],
+        "answerIndex": 2,
+        "explanation": "onclick occurs when the user clicks on an element."
+      },
+      {
+        "question": "How do you declare a JavaScript variable?",
+        "options": ["v carName;", "variable carName;", "var carName;", "val carName;"],
+        "answerIndex": 2,
+        "explanation": "var, let, or const are used to declare variables."
+      }
+    ]
+  },
+  {
+    "id": "q_react_1",
+    "category": "ReactJS",
+    "title": "React Fundamentals",
+    "description": "Component architecture and state management.",
+    "difficulty": "Advanced",
+    "createdBy": "System",
+    "pointsPerQuestion": 25,
+    "questions": [
+      {
+        "question": "What is React?",
+        "options": ["A JavaScript library for building user interfaces", "A framework for mobile apps", "A database management system", "A CSS preprocessor"],
+        "answerIndex": 0,
+        "explanation": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces."
+      },
+      {
+        "question": "Which method is not part of the React component lifecycle?",
+        "options": ["componentDidMount", "shouldComponentUpdate", "componentWillMount", "componentDidInit"],
+        "answerIndex": 3,
+        "explanation": "componentDidInit is not a valid lifecycle method in React."
+      },
+      {
+        "question": "What is a 'prop' in React?",
+        "options": ["Internal state of a component", "A function inside a component", "An argument passed into a React component", "A CSS class"],
+        "answerIndex": 2,
+        "explanation": "Props (properties) are arguments passed into React components."
+      },
+      {
+        "question": "What hook is used to handle side effects in functional components?",
+        "options": ["useState", "useEffect", "useReducer", "useCallback"],
+        "answerIndex": 1,
+        "explanation": "useEffect lets you perform side effects (data fetching, subscriptions) in function components."
+      },
+      {
+        "question": "What is the virtual DOM?",
+        "options": ["A direct copy of the real DOM", "A lightweight copy of the DOM kept in memory", "A browser extension", "A virtual reality interface"],
+        "answerIndex": 1,
+        "explanation": "The virtual DOM is a lightweight JavaScript representation of the DOM used to optimize rendering."
+      },
+      {
+        "question": "Which command is used to create a new React app?",
+        "options": ["npm create-react-app", "npx create-react-app", "npm install react", "node start react"],
+        "answerIndex": 1,
+        "explanation": "npx create-react-app my-app is the standard command (though Vite is now preferred)."
+      },
+      {
+        "question": "How do you handle events in React?",
+        "options": ["Using addEventListener", "Using inline event handlers with camelCase", "Using jQuery", "Through CSS"],
+        "answerIndex": 1,
+        "explanation": "React events are named using camelCase, rather than lowercase."
+      },
+      {
+        "question": "What is JSX?",
+        "options": ["A syntax extension for JavaScript", "A new HTML version", "A database query language", "A styling format"],
+        "answerIndex": 0,
+        "explanation": "JSX stands for JavaScript XML. It allows you to write HTML-like code inside JavaScript."
+      }
+    ]
+  },
+  {
+    "id": "q_sql_1",
+    "category": "SQL",
+    "title": "SQL Queries",
+    "description": "Fetching and manipulating data.",
+    "difficulty": "Intermediate",
+    "createdBy": "System",
+    "pointsPerQuestion": 15,
+    "questions": [
+      {
+        "question": "What does SQL stand for?",
+        "options": ["Structured Question Language", "Structured Query Language", "Strong Question Language", "Stable Query Language"],
+        "answerIndex": 1,
+        "explanation": "SQL stands for Structured Query Language."
+      },
+      {
+        "question": "Which SQL statement is used to extract data from a database?",
+        "options": ["EXTRACT", "GET", "OPEN", "SELECT"],
+        "answerIndex": 3,
+        "explanation": "The SELECT statement is used to select data from a database."
+      },
+      {
+        "question": "Which SQL statement is used to update data in a database?",
+        "options": ["SAVE", "MODIFY", "SAVE AS", "UPDATE"],
+        "answerIndex": 3,
+        "explanation": "The UPDATE statement is used to modify the existing records in a table."
+      },
+      {
+        "question": "Which SQL statement is used to delete data from a database?",
+        "options": ["REMOVE", "DELETE", "COLLAPSE", "DROP"],
+        "answerIndex": 1,
+        "explanation": "The DELETE statement is used to delete existing records in a table."
+      },
+      {
+        "question": "Which SQL statement is used to insert new data in a database?",
+        "options": ["INSERT INTO", "INSERT NEW", "ADD RECORD", "ADD NEW"],
+        "answerIndex": 0,
+        "explanation": "The INSERT INTO statement is used to insert new records in a table."
+      },
+      {
+        "question": "With SQL, how do you select all the columns from a table named 'Persons'?",
+        "options": ["SELECT [all] FROM Persons", "SELECT Persons", "SELECT *.Persons", "SELECT * FROM Persons"],
+        "answerIndex": 3,
+        "explanation": "SELECT * FROM TableName selects all columns."
+      },
+      {
+        "question": "Which SQL clause is used to filter records?",
+        "options": ["WHERE", "LIKE", "FILTER", "SEARCH"],
+        "answerIndex": 0,
+        "explanation": "The WHERE clause is used to filter records."
+      },
+      {
+        "question": "Which SQL keyword is used to sort the result-set?",
+        "options": ["ORDER", "SORT", "ORDER BY", "SORT BY"],
+        "answerIndex": 2,
+        "explanation": "The ORDER BY keyword is used to sort the result-set in ascending or descending order."
+      }
+    ]
+  },
+   {
+    "id": "q_nosql_1",
+    "category": "NoSQL",
+    "title": "NoSQL Concepts",
+    "description": "Understanding non-relational databases.",
+    "difficulty": "Advanced",
+    "createdBy": "System",
+    "pointsPerQuestion": 20,
+    "questions": [
+      {
+        "question": "What does NoSQL stand for?",
+        "options": ["No SQL", "Not Only SQL", "None SQL", "New SQL"],
+        "answerIndex": 1,
+        "explanation": "NoSQL encompasses a wide variety of different database technologies, standing for 'Not Only SQL'."
+      },
+        {
+        "question": "Which of these is a popular NoSQL database?",
+        "options": ["MySQL", "PostgreSQL", "MongoDB", "Oracle"],
+        "answerIndex": 2,
+        "explanation": "MongoDB is a widely used document-oriented NoSQL database."
+      },
+      {
+        "question": "In MongoDB, what are records called?",
+        "options": ["Rows", "Tables", "Documents", "Tuples"],
+        "answerIndex": 2,
+        "explanation": "Data in MongoDB receives a flexible JSON-like format called Documents."
+      },
+      {
+        "question": "Which CAP theorem property is often sacrificed in NoSQL systems for high availability?",
+        "options": ["Consistency", "Availability", "Partition Tolerance", "Scalability"],
+        "answerIndex": 0,
+        "explanation": "Many NoSQL databases sacrifice strong Consistency for Availability and Partition Tolerance (AP systems)."
+      },
+       {
+        "question": "What format does MongoDB use to store documents?",
+        "options": ["XML", "BSON", "YAML", "CSV"],
+        "answerIndex": 1,
+        "explanation": "MongoDB uses BSON (Binary JSON) to store data."
+      },
+      {
+        "question": "NoSQL databases are primarily designed for:",
+        "options": ["Complex joins", "Vertical scaling", "Horizontal scaling", "Structured data only"],
+        "answerIndex": 2,
+        "explanation": "NoSQL is built for horizontal scaling (sharding) to handle large volumes of data."
+      },
+       {
+        "question": "Which type of NoSQL database is Redis?",
+        "options": ["Document", "Key-Value", "Graph", "Column-family"],
+        "answerIndex": 1,
+        "explanation": "Redis is a high-performance in-memory Key-Value store."
+      },
+      {
+        "question": "Are schemas mandatory in NoSQL?",
+        "options": ["Yes, always", "No, they are schema-less or schema-flexible", "Only for read operations", "Yes for write operations"],
+        "answerIndex": 1,
+        "explanation": "NoSQL databases allow you to insert data without a predefined schema."
+      }
+    ]
+  },
+  {
+    "id": "q_java_1",
+    "category": "Java",
+    "title": "Java Programming",
+    "description": "Object-oriented programming with Java.",
+    "difficulty": "Intermediate",
+    "createdBy": "System",
+    "pointsPerQuestion": 15,
+    "questions": [
+      {
+        "question": "Which data type is used to create a variable that should store text?",
+        "options": ["String", "txt", "string", "MyString"],
+        "answerIndex": 0,
+        "explanation": "String is the class used to represent text in Java."
+      },
+      {
+        "question": "How do you create a variable with the numeric value 5?",
+        "options": ["num x = 5", "x = 5", "int x = 5;", "float x = 5"],
+        "answerIndex": 2,
+        "explanation": "int is the data type for integers."
+      },
+      {
+        "question": "Which method is the entry point for any Java program?",
+        "options": ["start()", "init()", "run()", "main()"],
+        "answerIndex": 3,
+        "explanation": "public static void main(String[] args) is the entry point."
+      },
+      {
+        "question": "How do you create an object of a class named MyClass?",
+        "options": ["MyClass obj = new MyClass();", "class MyClass = new MyClass();", "new MyClass obj;", "MyClass obj();"],
+        "answerIndex": 0,
+        "explanation": "The 'new' keyword is used to instantiate a class."
+      },
+       {
+        "question": "Which operator is used to compare two values?",
+        "options": ["=", "<>", "==", "><"],
+        "answerIndex": 2,
+        "explanation": "== is the equality operator."
+      },
+      {
+        "question": "To declare an array in Java, define the variable type with:",
+        "options": ["()", "{}", "[]", "<>"],
+        "answerIndex": 2,
+        "explanation": "Brackets [] are used for arrays (e.g., int[] arr)."
+      },
+      {
+        "question": "Which keyword is used to inherit a class?",
+        "options": ["extends", "implements", "inherits", "uses"],
+        "answerIndex": 0,
+        "explanation": "extends is used for class inheritance."
+      },
+      {
+        "question": "What is the size of an int variable?",
+        "options": ["8 bit", "16 bit", "32 bit", "64 bit"],
+        "answerIndex": 2,
+        "explanation": "A Java int is a 32-bit signed two's complement integer."
+      }
+    ]
+  },
+    {
+    "id": "q_next_1",
+    "category": "NextJs",
+    "title": "Next.js Framework",
+    "description": "Server-side rendering and static generation.",
+    "difficulty": "Advanced",
+    "createdBy": "System",
+    "pointsPerQuestion": 25,
+    "questions": [
+      {
+        "question": "What is Next.js built on top of?",
+        "options": ["Angular", "Vue", "React", "Svelte"],
+        "answerIndex": 2,
+        "explanation": "Next.js is a React framework for production."
+      },
+      {
+        "question": "Which function is used for Static Site Generation (SSG)?",
+        "options": ["getServerSideProps", "getStaticProps", "getInitialProps", "useEffect"],
+        "answerIndex": 1,
+        "explanation": "getStaticProps fetches data at build time."
+      },
+       {
+        "question": "How do you create a dynamic route in Next.js?",
+        "options": ["Using regex in filename", "Using brackets like [id].js", "Using @id.js", "Using _id.js"],
+        "answerIndex": 1,
+        "explanation": "Dynamic segments are defined by wrapping a folder or file name in square brackets: [folderName]."
+      },
+      {
+        "question": "Which component is used for client-side navigation?",
+        "options": ["<Link>", "<a href>", "<Nav>", "<Router>"],
+        "answerIndex": 0,
+        "explanation": "Next.js provides a <Link> component for client-side transitions."
+      },
+      {
+        "question": "Where should static assets like images be placed?",
+        "options": ["/assets", "/src/images", "/public", "/static"],
+        "answerIndex": 2,
+        "explanation": "The public directory is used to serve static assets."
+      },
+      {
+        "question": "What is the file name for the custom error page?",
+        "options": ["error.js", "_error.js", "404.js", "fail.js"],
+        "answerIndex": 1,
+        "explanation": "_error.js handles server errors. 404.js handles page not found."
+      },
+      {
+        "question": "How do you enable CSS modules?",
+        "options": ["Name file styles.css", "Name file styles.module.css", "Import css inside component", "Use styled-components"],
+        "answerIndex": 1,
+        "explanation": "Next.js supports CSS Modules using the [name].module.css file naming convention."
+      },
+      {
+        "question": "Which function runs on every request in Next.js?",
+        "options": ["getStaticProps", "getServerSideProps", "getStaticPaths", "render"],
+        "answerIndex": 1,
+        "explanation": "getServerSideProps runs on every request for SSR."
+      }
+    ]
+  },
+  {
+    "id": "q_angular_1",
+    "category": "AngularJS",
+    "title": "Angular Concepts",
+    "description": "Understanding the Angular framework structure.",
+    "difficulty": "Advanced",
+    "createdBy": "System",
+    "pointsPerQuestion": 25,
+    "questions": [
+       {
+        "question": "Angular is a framework based on which language?",
+        "options": ["JavaScript", "Typescript", "Python", "C#"],
+        "answerIndex": 1,
+        "explanation": "Angular is built with and optimized for TypeScript."
+      },
+      {
+        "question": "Which directive is used for two-way data binding?",
+        "options": ["ng-bind", "ng-model", "ng-data", "v-model"],
+        "answerIndex": 1,
+        "explanation": "ng-model binds the value of HTML controls to application data."
+      },
+      {
+        "question": "What is a decorator in Angular?",
+        "options": ["A design pattern", "A CSS style", "A function that adds metadata to a class", "A generic type"],
+        "answerIndex": 2,
+        "explanation": "Decorators (like @Component) attach metadata to classes so Angular knows how to create them."
+      },
+      {
+        "question": "Which CLI command generates a new component?",
+        "options": ["ng new component", "ng generate component", "ng create component", "ng add component"],
+        "answerIndex": 1,
+        "explanation": "ng generate component (or ng g c) creates a new component."
+      },
+       {
+        "question": "What is Dependency Injection in Angular?",
+        "options": ["A way to import modules", "A design pattern for supplying dependencies to a class", "Installing npm packages", "Linking CSS files"],
+        "answerIndex": 1,
+        "explanation": "DI allows classes to receive dependencies from an external source rather than creating them."
+      },
+      {
+        "question": "Which symbol is used for property binding?",
+        "options": ["{{}}", "()", "[]", "**"],
+        "answerIndex": 2,
+        "explanation": "Square brackets [] are used for property binding (e.g., [src])."
+      },
+      {
+        "question": "Which symbol is used for event binding?",
+        "options": ["{{}}", "()", "[]", "**"],
+        "answerIndex": 1,
+        "explanation": "Parentheses () are used for event binding (e.g., (click))."
+      },
+      {
+        "question": "What is the purpose of NgModule?",
+        "options": ["To define a module", "To compile the app", "To bundle assets", "To style components"],
+        "answerIndex": 0,
+        "explanation": "NgModules configure the injector and the compiler and help organize related code."
+      }
+    ]
+  }
+]
